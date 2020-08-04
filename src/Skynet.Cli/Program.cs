@@ -16,7 +16,12 @@ namespace Skynet.Cli
     {
         RootCommand Setup()
         {
-            var rootCommand = new RootCommand("A command line tool to upload files to Sia Skynet");
+            var rootCommand = new RootCommand
+            {
+                Name = "skynet",
+                Description = "A command line tool to upload files to Sia Skynet"
+            };
+
             rootCommand.AddCommand(new UploadCommand());
             return rootCommand;
         }

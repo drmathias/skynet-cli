@@ -4,7 +4,19 @@
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <LangVersion>latest</LangVersion>
-    <AssemblyName>skynet</AssemblyName>
+    <AssemblyName>skynet-cli</AssemblyName>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <PackAsTool>true</PackAsTool>
+    <ToolCommandName>skynet</ToolCommandName>
+    <Version>1.0.0</Version>
+    <Authors>Adam Shirt</Authors>
+    <Description>A command line tool to upload files to Sia Skynet</Description>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <RepositoryUrl>https://github.com/drmathias/skynet-cli</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>sia skynet webportal decentralised storage</PackageTags>
   </PropertyGroup>
 
   <ItemGroup>
