@@ -1,6 +1,10 @@
+⚠️ _This repository is not maintained_ ⚠️
+
+---
+
 # Skynet CLI
 
-A dotnet tool for uploading files to Sia Skynet.
+A dotnet tool for uploading files to Sia Skynet. This tool was built for demonstration purposes, to show off how to go about using the [csharp-skynet](https://github.com/drmathias/csharp-skynet) library. You might be looking for the more comprehensive [skynet-cli](https://github.com/SkynetLabs/skynet-cli) by Skynet Labs instead.
 
 ![.NET Core](https://github.com/drmathias/skynet-cli/workflows/.NET%20Core/badge.svg?branch=master) [![NuGet](https://img.shields.io/nuget/v/skynet-cli)](https://www.nuget.org/packages/skynet-cli/)
 
